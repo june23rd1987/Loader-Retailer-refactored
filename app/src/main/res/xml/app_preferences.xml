@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="BASIC SETTINGS">
+
+
+        <ListPreference
+            android:dialogTitle="Select Your Account Type"
+            android:entries="@array/settings_list_preference_loader_title"
+            android:entryValues="@array/settings_list_preference_loader_values"
+            android:key="loadertype"
+            android:summary="Choose Account Type"
+            android:title="1).Account Type" />
+
+
+        <ListPreference
+            android:dialogTitle="Please choose your Network. NOTE: This app will incur sms charges."
+            android:entries="@array/settings_list_preference_network_title"
+            android:entryValues="@array/settings_list_preference_network_values"
+            android:key="gateway"
+            android:summary="Choose your network"
+            android:title="2).Select Your Network" />
+
+
+        <ListPreference
+            android:dialogTitle="Select You SIM"
+            android:entries="@array/settings_list_preference_dualsim_title"
+            android:entryValues="@array/settings_list_preference_dualsim_values"
+            android:key="dualsim"
+            android:summary="Select You SIM"
+            android:title="3).SIM Selection" />
+
+
+        <!--
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_pref1"
+            android:summary="@string/preferences_switch_summ"
+            android:title="@string/preferences_switch_title"/>
+
+        <android.support.v7.preference.EditTextPreference
+            android:defaultValue="@string/preferences_edittext_default"
+            android:dialogLayout="@layout/activity_preference_dialog_edittext_fix"
+            android:dialogMessage="@string/preferences_edittext_message"
+            android:inputType="number"
+            android:key="@string/pref_pref2"
+            android:summary="@string/preferences_edittext_summ"
+            android:title="@string/preferences_edittext_title"/>
+
+        <android.support.v7.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_pref3"
+            android:summary="@string/preferences_checkbox_summ"
+            android:title="@string/preferences_checkbox_title"/>
+            -->
+
+    </android.support.v7.preference.PreferenceCategory>
+
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="ADVANCE SETTINGS">
+
+        <Preference
+            android:id="@+id/settings_app_version"
+            android:key="app_version"
+            android:widgetLayout="@layout/button"
+            android:summary="@string/app_version_value"
+            android:title="@string/title_version" />
+
+        <!--
+        <com.inducesmile.retailer.TimePreference
+            style="@style/AppPreference.DialogPreference"
+            android:defaultValue="90"
+            android:key="@string/pref_pref4"
+            android:summary="@string/preferences_time_summ"
+            android:title="@string/preferences_time_title"/>
+         -->
+
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

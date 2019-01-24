@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/redbg">
+
+    <!-- Editext for Search -->
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="0dp">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="355dp"
+        android:layout_height="109dp"
+        android:layout_alignTop="@+id/frame_layout"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="268dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/PRODUCTLIST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="98dp"
+        android:text="@string/productlistlabel"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PRODUCTLIST"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:iconifiedByDefault="false"
+        android:padding="2dp"
+        android:queryHint="Search...." />
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="371dp"
+        android:layout_height="354dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="43dp" />
+
+
+    <ImageView
+        android:id="@+id/ivbaby"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/logo2"
+        android:layout_alignLeft="@+id/logo2"
+        android:layout_alignTop="@+id/list_view"
+        android:layout_marginStart="-6dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/todo"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="17dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/PRODUCTLIST"
+        android:layout_alignLeft="@+id/PRODUCTLIST"
+        android:layout_alignBottom="@+id/ivbaby"
+        android:paddingBottom="10dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backbutton2"
+        android:layout_width="373dp"
+        android:layout_height="33dp"
+        android:layout_alignStart="@+id/list_view"
+        android:layout_alignLeft="@+id/list_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="5dp"
+        android:text="@string/backlabel"
+        android:textColor="@color/textbox"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

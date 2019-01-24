@@ -1,0 +1,47 @@
+# timestamp | duration | file | instruction | dir | modtime | etag | size | fileId | status | errorString | http result code | other size | other modtime | X-Request-ID
+#=#=#=# Syncrun started 2019-01-12T03:13:59Z
+#=#=#=#=# Propagation starts 2019-01-12T03:14:00Z (last step: 1468 msec, total: 1468 msec)
+03:14:01||APK|INST_NEW|Up|1544868483||0|00065820ocd4e6s81rj1|4||201|0|0|5e9e20b3-eb0e-42e2-bdc6-05099106f2ff|
+03:14:01||PlayStore Bundle|INST_NEW|Up|1544868486||0|00065821ocd4e6s81rj1|4||201|0|0|c635eacf-3a05-41f5-a849-e4f4cc32bb0c|
+03:14:02||APK/loader.ph-24.11.2018-retailer-1-release.apk|INST_NEW|Up|1544868433|783bebb10ae881a31c9a004838a04e68|5787555|00065822ocd4e6s81rj1|4||201|0|0|d1f0fe4d-8cba-42fd-846b-9bd5bae389a5|
+03:15:01||PlayStore Bundle/loader.ph-24.11.2018-retailer-1.aab|INST_NEW|Up|1544868303|4862315d10f4fe7186ac076c75fc3dc0|5335770|00065823ocd4e6s81rj1|4||201|0|0|31ccdef4-f89d-4264-8d45-8062c1da82a5|
+03:15:55||release|INST_NEW|Up|1544868303||0|00065824ocd4e6s81rj1|4||201|0|0|675fc5ee-e2e5-4738-a23e-740ae4d5fd5a|
+03:17:37||Loader.PH-release.zip|INST_NEW|Up|1544868505|f2ff4f59de53425c6d22b320a5d0821e|10019267|00065828ocd4e6s81rj1|4||201|0|0|8add8880-1a90-4395-a957-683c66e61618|
+03:17:39||release/loader.ph-24.11.2018-retailer-1.aab|INST_NEW|Up|1544868303|96e946d95c3303f783198f45f0ba4ba8|5335770|00065829ocd4e6s81rj1|4||201|0|0|e9734c6b-5fbe-4a3e-94a0-24e4d15cdc22|
+03:18:32||loader.ph-04.01.2019-retailer-alpha-5-release.apk|INST_NEW|Up|1546582707|e51d5933ff1f8e38cf9766257b2fc0e1|6294883|00065830ocd4e6s81rj1|4||201|0|0|96138d52-1d52-4373-9caf-fd7f1349f00b|
+03:19:37||loader.ph-04.01.2019-retailer-alpha-5-release.zip|INST_NEW|Up|1546582819|1a4bafd4fea06f910fc8de33d14ec1cc|5351307|00065831ocd4e6s81rj1|4||201|0|0|b47f41b0-c481-46fc-af0e-8d4e1b297272|
+03:20:32||loader.ph-04.01.2019-retailer-alpha-7-release.apk|INST_NEW|Up|1546849189|b01d1b03b6feb63445e9c8f2e2da7e97|6291719|00065833ocd4e6s81rj1|4||201|0|0|9f030329-3537-4046-9211-4d588e63e374|
+03:21:36||loader.ph-04.01.2019-retailer-alpha-7-release.zip|INST_NEW|Up|1546827120|676bf331235fcac84bac7f17e7d51793|5343325|00065834ocd4e6s81rj1|4||201|0|0|b4da35e4-4aef-43b3-86e7-1be075ca14e8|
+03:22:31||loader.ph-07.01.2019-retailer-alpha-8-release.apk|INST_NEW|Up|1546849291|1eb2582eb0ee0fbbbe0e3ee8e2a1d8bf|6291671|00065838ocd4e6s81rj1|4||201|0|0|88f0e320-7f5b-458f-a583-164f521164da|
+03:23:33||loader.ph-07.01.2019-retailer-alpha-8-release.zip|INST_NEW|Up|1546849310|f6b8ccab70238ceead7dfa937b47a33f|5345896|00065840ocd4e6s81rj1|4||201|0|0|8a1172a1-98b5-4abc-b894-323ac16609d0|
+03:24:28||loader.ph-08.01.2019-retailer-alpha-10-release.apk|INST_NEW|Up|1547011600|506defe369bcd81f3141a73d584311a2|6460701|00065842ocd4e6s81rj1|4||201|0|0|9a923fa6-0b99-4586-b2af-2387a51e771f|
+03:25:33||loader.ph-08.01.2019-retailer-alpha-10-release.zip|INST_NEW|Up|1546939933|4dbdad1574b5634c4dfc2f89e0af65bb|5500469|00065844ocd4e6s81rj1|4||201|0|0|280acaac-a141-4a54-8172-74d1f59d393f|
+03:26:30||loader.ph-08.01.2019-retailer-alpha-9-release.apk|INST_NEW|Up|1546939767|6c64890af408c4d956cd63a182855817|6448973|00065846ocd4e6s81rj1|4||201|0|0|eb449e9a-12d9-4b21-83cb-7142461c6b79|
+03:27:35||loader.ph-08.01.2019-retailer-alpha-9-release.zip|INST_NEW|Up|1546924832|511ec3301274481ef85166a66cc890c5|5483750|00065850ocd4e6s81rj1|4||201|0|0|0d916b51-ea32-4383-b76c-11359bf5aac1|
+03:28:31||loader.ph-09.01.2019-retailer-alpha-11-release.apk|INST_NEW|Up|1547011824|412a798bbdb3b3d8251bd35c0afcdf86|6460685|00065852ocd4e6s81rj1|4||201|0|0|d10d58bc-293e-486c-9057-83ef045fdef2|
+03:29:35||loader.ph-09.01.2019-retailer-alpha-11-release.zip|INST_NEW|Up|1547011836|68d459a1ed871cb1f6cbddea1abf805c|5512036|00065855ocd4e6s81rj1|4||201|0|0|f73b40d8-7652-4da6-b4eb-1b9f71392121|
+03:30:32||loader.ph-18.12.2018-retailer-beta-2-release.apk|INST_NEW|Up|1545276540|6b18cfe5e38ed039bd5e7d6d0abec3ff|5774936|00065856ocd4e6s81rj1|4||201|0|0|8049e296-ea80-4a0a-8410-549c234adb9a|
+03:31:30||loader.ph-18.12.2018-retailer-beta-2-release.zip|INST_NEW|Up|1545122137|c4469a78aa9490e803144f3c7f418b01|4912159|00065859ocd4e6s81rj1|4||201|0|0|44e83625-d54b-47ed-92ff-66bb88285fc8|
+03:32:47||loader.ph-20.12.2018-retailer-beta-3-release.apk|INST_NEW|Up|1545277359|371d01dd36fdc8699f491a759659fb1f|5774900|00065860ocd4e6s81rj1|4||201|0|0|1bb7df40-1899-4ea9-93a3-5c7478695d80|
+03:33:46||loader.ph-20.12.2018-retailer-beta-3-release.zip|INST_NEW|Up|1545277500|2da96c3e211aba6ec676ca93d8387f04|4904718|00065861ocd4e6s81rj1|4||201|0|0|3c872b4a-8041-4d7f-ac77-7349572aed0c|
+03:35:21||loader.ph-24.11.2018-retailer-1-release.apk|INST_NEW|Up|1545121930|2a935963c7ba6290e7ed9c70753e7926|5789981|00065862ocd4e6s81rj1|4||201|0|0|b7e67108-d0b0-4707-ad05-d0c460c561d4|
+03:36:19||output.json|INST_NEW|Up|1547011824|b237ee08aa040887d32fa666a8a75d7d|316|00065863ocd4e6s81rj1|4||201|0|0|4917c9e8-22d4-49c2-a777-e153cbdf7887|
+#=#=#=# Syncrun finished 2019-01-12T03:36:20Z (last step: 1339579 msec, total: 1341048 msec)
+#=#=#=# Syncrun started 2019-01-12T03:59:37Z
+#=#=#=#=# Propagation starts 2019-01-12T03:59:41Z (last step: 3583 msec, total: 3583 msec)
+#=#=#=# Syncrun finished 2019-01-12T03:59:41Z (last step: 82 msec, total: 3665 msec)
+#=#=#=# Syncrun started 2019-01-12T05:59:43Z
+#=#=#=#=# Propagation starts 2019-01-12T05:59:45Z (last step: 1753 msec, total: 1753 msec)
+#=#=#=# Syncrun finished 2019-01-12T05:59:45Z (last step: 126 msec, total: 1879 msec)
+#=#=#=# Syncrun started 2019-01-12T07:59:48Z
+#=#=#=#=# Propagation starts 2019-01-12T07:59:50Z (last step: 1803 msec, total: 1803 msec)
+#=#=#=# Syncrun finished 2019-01-12T07:59:50Z (last step: 123 msec, total: 1927 msec)
+#=#=#=# Syncrun started 2019-01-12T10:00:03Z
+#=#=#=#=# Propagation starts 2019-01-12T10:00:04Z (last step: 1173 msec, total: 1173 msec)
+#=#=#=# Syncrun finished 2019-01-12T10:00:04Z (last step: 92 msec, total: 1266 msec)
+#=#=#=# Syncrun started 2019-01-14T01:54:35Z
+#=#=#=#=# Propagation starts 2019-01-14T01:54:37Z (last step: 1615 msec, total: 1615 msec)
+#=#=#=# Syncrun finished 2019-01-14T01:54:37Z (last step: 565 msec, total: 2181 msec)
+#=#=#=# Syncrun started 2019-01-14T02:53:20Z
+#=#=#=#=# Propagation starts 2019-01-14T02:53:21Z (last step: 877 msec, total: 877 msec)
+#=#=#=# Syncrun finished 2019-01-14T02:53:21Z (last step: 209 msec, total: 1086 msec)

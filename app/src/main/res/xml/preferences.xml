@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <PreferenceCategory android:title="Basic Settings">
+        <ListPreference
+            android:dialogTitle="Select a Gateway"
+            android:entries="@array/settings_list_preference_network_title"
+            android:entryValues="@array/settings_list_preference_network_values"
+            android:key="gateway"
+            android:summary="Click to choose a gateway"
+            android:title="Gateway" />
+
+        <ListPreference
+            android:dialogTitle="Select Loader Type"
+            android:entries="@array/settings_list_preference_loader_title"
+            android:entryValues="@array/settings_list_preference_loader_values"
+            android:key="loadertype"
+            android:summary="Choose Loader type"
+            android:title="Loader Type" />
+
+        <Preference
+            android:id="@+id/settings_app_version"
+            android:key="app_version"
+            android:summary="@string/app_version_value"
+            android:title="@string/title_version" />
+
+
+        <!--
+        <Preference
+            android:id="@+id/settings_backButtons"
+            android:key="backButtons"
+            android:layout="@layout/buttons"
+            android:widgetLayout="@drawable/common_google_signin_btn_icon_light_normal_background" />
+            -->
+
+
+        <Preference
+            android:id="@+id/settings_backButtons"
+            android:key="backButtons"
+            android:title="GO TO MAIN MENU" />
+
+
+        <!--
+        <CheckBoxPreference
+            android:key="checkbox"
+            android:summary="Tap to check if on or off"
+            android:title="Checkbox Preference" />
+        <RingtonePreference
+            android:key="ringtone"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="Pick a ringtone you like"
+            android:title="Ringtone Preference" />
+        android:visibility="gone" />
+        <EditTextPreference
+            android:dialogTitle="Enter a text"
+            android:key="text"
+            android:summary="Click to show a text entry dialog"
+            android:title="EditText Preference" />
+            -->
+
+
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory android:title="Advance Settings">
+        <ListPreference
+            android:dialogTitle="Select duration"
+            android:entries="@array/settings_list_preference_titles"
+            android:entryValues="@array/settings_list_preference_values"
+            android:key="list"
+            android:summary="Click to show a list to choose from"
+            android:title="List Preference" />
+        <SwitchPreference
+            android:key="switch"
+            android:title="Switch Preference"
+            android:summary="Click to switch on or off"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+    <Preference
+        android:selectable="false"
+        android:summary="@string/summary_about" />
+
+    </PreferenceCategory>
+
+    -->
+
+    <!--
+    <Preference android:title="Back Title"
+        android:key="pref_button"
+        android:summary="Back Summary"/>
+    -->
+
+</PreferenceScreen>
+
+

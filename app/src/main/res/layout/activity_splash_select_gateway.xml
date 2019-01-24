@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/redbg"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ProductListFilterActivityx">
+
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="356dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="268dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/PRODUCTLIST2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logo3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/initial_setup"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/update_gateway_label"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/update_gateway_label"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/gateway_spinner"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="207dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:entries="@array/settings_list_preference_network_title"
+        android:gravity="center_vertical|center_horizontal|center" />
+
+
+    <TextView
+        android:id="@+id/update_gateway_label2"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="290dp"
+        android:text="@string/loader_type_label"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/loadertype_spinner"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gateway_spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:entries="@array/settings_list_preference_loader_title"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:paddingStart="120dp"
+        android:paddingLeft="130dp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/update_gateway_btn"
+        android:layout_width="316dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/logo3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="5dp"
+        android:text="@string/update_gateway_btn"
+        android:textColor="@color/textbox"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

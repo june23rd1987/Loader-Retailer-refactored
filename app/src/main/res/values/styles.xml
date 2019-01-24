@@ -1,0 +1,148 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/colorPrimary</item>
+
+        <!-- Theme for the Preferences -->
+        <item name="preferenceTheme">@style/AppPreferenceTheme</item>
+
+        <!-- Theme for all Alert Dialogs (e.g. from DialogPreference) -->
+        <item name="alertDialogTheme">@style/AppAlertDialog</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="PreferencesTheme">
+        <item name="android:windowBackground">@drawable/common_google_signin_btn_icon_light</item>
+        <item name="android:background">#FFEAEAEA</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/redbg</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+    </style>
+
+
+
+
+
+    <!-- CUSTOM ALERT DIALOG FOR SPLASH -->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#FFC107</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Used for the background -->
+        <item name="android:background">#4CAF50</item>
+        <!-- dialog box title text -->
+        <item name="android:windowTitleStyle">@style/MyTitleTextStyle</item>
+
+        <!--
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        -->
+        <!--
+        <item name="android:windowIsFloating">false</item>
+        -->
+
+        <item name="windowMinWidthMajor">100%</item>
+        <item name="windowMinWidthMinor">100%</item>
+    </style>
+    <style name="MyTitleTextStyle">
+        <item name="android:textColor">#FFEB3B</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Base application theme. -->
+    <!---
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+
+
+        <item name="preferenceTheme">@style/AppPreferenceTheme</item>
+
+
+        <item name="alertDialogTheme">@style/AppAlertDialog</item>
+    </style>
+    -->
+
+    <!-- Custom Preference Theme inherits from the v14 support library Material Theme -->
+    <style name="AppPreferenceTheme" parent="@style/PreferenceThemeOverlay.v14.Material">
+        <item name="preferenceFragmentCompatStyle">@style/AppPreferenceFragmentCompatStyle</item>
+    </style>
+
+    <!-- Custom Style for PreferenceFragmentCompat -->
+    <style name="AppPreferenceFragmentCompatStyle" parent="@style/PreferenceFragment.Material">
+        <!-- Custom layout for PreferenceFragmentCompat -->
+        <item name="android:layout">@layout/activity_preference_screen</item>
+    </style>
+
+    <!-- Style for a custom Preference Entry -->
+    <style name="AppPreference">
+        <item name="android:layout">@layout/preference_material</item>
+    </style>
+
+    <!-- Style for a DialogPreference Entry -->
+    <style name="AppPreference.DialogPreference">
+        <item name="positiveButtonText">@android:string/ok</item>
+        <item name="negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <style name="AppAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <!-- To tint the buttons -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppAlertDialogContent" parent="Theme.AppCompat.DayNight">
+        <!-- To tint EditText and TimePicker -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+</resources>
